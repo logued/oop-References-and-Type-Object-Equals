@@ -60,7 +60,7 @@ public class AppMain {
 
         //obj1
 
-        // However, we know that th ereference "obj1" is actually pointing at a Point type object,
+        // However, we know that the reference "obj1" is actually pointing at a Point type object,
         // so, we can CAST the type of that reference to a Point type, and used that converted
         // reference to invoke methods of the Point class.
         // Note that the CAST changes the type of the reference (not the type of the object).
