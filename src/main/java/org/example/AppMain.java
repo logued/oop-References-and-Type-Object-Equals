@@ -29,6 +29,9 @@ public class AppMain {
         // -  usually, we use Object type references to point at objects of some other type.
         //     - often, to give flexibility to allow us to refer to any type of object
 
+        //System.out.println(objRef);
+
+
         Point p1 = new Point(10, 20);   // new object
         Point p2 = new Point(10, 20);   // new object
         Point p3 = p1;  // p3 refers to an existing object (object is shared by p1 and p3)
@@ -97,7 +100,7 @@ public class AppMain {
             System.out.println("p8 is NOT equal to p9");
 
         //TODO
-        // 1. draw a memory diagram showing all onjects and references at this point in the program
+        // 1. draw a memory diagram showing all objects and references at this point in the program
         // 2. explain what happens to objects and reference variables when this start() method exits
 
     }
