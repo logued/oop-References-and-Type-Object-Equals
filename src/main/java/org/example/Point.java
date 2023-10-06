@@ -35,6 +35,7 @@ public class Point {
         return x == point.x && y == point.y;
     }
 
+
 //  DETAILED EXPLANATION of the above equals() method
     //
 //    @Override

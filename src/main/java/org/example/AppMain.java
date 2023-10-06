@@ -1,4 +1,4 @@
-package org.example;
+package org.example;            // Updated: Oct 2023
 
 /**
  * Demonstration of:
@@ -25,7 +25,7 @@ public class AppMain {
 
         Object objRef = new Object();
         // Type "objRef." to see the methods that are available to call using this reference.
-        // Creating an instance of class Object is not really of much practical use to us
+        //
         // -  usually, we use Object type references to point at objects of some other type.
         //     - often, to give flexibility to allow us to refer to any type of object
 
@@ -46,8 +46,8 @@ public class AppMain {
 
         Object obj1 = new Point(33, 44);  // this is allowed - why?
         // Note: All classes inherit from the Object superclass.
-        // Therefor, all objects are of type Object.
-        // The Point class inherits from Object, and therefor it can be accessed
+        // Therefore, all objects are of type Object.
+        // The Point class inherits from Object, and therefore it can be accessed
         // using a Point type reference OR by an Object type reference.
         // Point "is-an" Object. (by virtue of inheritance relationship).
         // Thus, we can use a reference of type Object to point at the Point object.
@@ -58,7 +58,7 @@ public class AppMain {
         // but no Point methods. The type of the reference determines the methods that
         // can be called on the object (here, only the methods defined in Object can be called)
 
-        //obj1
+        // obj1
 
         // However, we know that the reference "obj1" is actually pointing at a Point type object,
         // so, we can CAST the type of that reference to a Point type, and used that converted
@@ -97,10 +97,8 @@ public class AppMain {
             System.out.println("p8 is NOT equal to p9");
 
         //TODO
-        // Define a new class called Point3D to represent a point in 3D space (x,y,z).
-        // Point3D should extend the Point class.
-        // It should have one extra field called "z", a relevant constructor and getter methods.
-        // Implement an equals method in the Point3D class and test it out.
+        // 1. draw a memory diagram showing all onjects and references at this point in the program
+        // 2. explain what happens to objects and reference variables when this start() method exits
 
     }
 }
